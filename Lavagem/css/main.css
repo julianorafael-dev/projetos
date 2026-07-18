@@ -235,6 +235,55 @@ main #second #sobre__nos h3{
     margin: 10px 0;
 }
 
+/* Footer */
+
+footer{
+    margin-top: 40px;
+    background-color: #00081A;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+   
+}
+
+footer #superior{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+}
+footer #superior div{
+    max-width: 1100px;
+    display: flex;
+    align-items: center; 
+}
+footer #juntas{
+    gap: 100px;
+}
+footer #juntas div:hover{
+    transform: scale(1.05);
+}
+
+footer div p{
+    font-size: 10px;
+    color: #fff;
+    
+}
+footer div h3{
+    color: #fdc50e;
+}
+footer img{
+    height: 20px;
+    margin-right: 5px;
+}
+footer span{
+    text-align: center;
+    margin: 20px;
+}
+
 
 
 
@@ -297,4 +346,14 @@ main #second #sobre__nos h3{
     main #first #titulo h2 {
         font-size: 38px;
     }
+
+    footer{
+        padding-top: 20px;
+    }
+    footer #superior{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
