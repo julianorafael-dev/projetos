@@ -52,5 +52,93 @@ header #voltar{
 }
 
 header #voltar:hover{
-    transform: scale(105%);
+    transform: scale(1.05);
+}
+
+/* orçamnento */
+#conteudo{
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #001B4D;
+    border-radius: 10px;
+    color: #fff;
+}
+#conteudo h2, p{
+    text-align: center;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+#form-orcamento{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo label{
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input, .campo textarea{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 12px;
+    outline: none;
+}
+
+.campo textarea{
+    resize: none;
+}
+
+.linha{
+    display: flex;
+    gap: 20px;
+}
+
+.linha .campo{
+    flex: 1;
+}
+
+.checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+}
+
+.checkbox label{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+    background: #fdc50e;
+    color: #000;
+    border: none;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+button:hover{
+    transform: scale(1.03);
 }
