@@ -173,6 +173,71 @@ main #first #carro {
 }
 
 
+/* main - id second 1ª parte */
+main #second #servicos ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+main #second #servicos ul li{
+    display: flex;
+    flex-direction: column;
+}
+main #second #servicos h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fdc50e;
+}
+main #second #servicos h3{
+    text-align: center;
+    color: #fdc50e;
+}
+main #second #servicos p{
+    color: #fff;
+}
+main #second #servicos ul li{
+    width: 200px;
+}
+main #second #servicos ul p{
+    font-size: 12px;
+    
+}
+main #second #servicos img{
+    height: 100px;
+}
+#servicos li:hover{
+    transform: scale(1.1);
+
+}
+
+/* sobre nos */
+main #second #sobre__nos{
+    padding-top: 30px;
+    
+}
+
+main #second #sobre__nos h2 {
+    margin-top: 50px;
+    text-align: center;
+    color: #fdc50e;
+}
+
+main #second #sobre__nos p{
+    text-indent: 40px;
+    color: #fff;
+}
+main #second #sobre__nos h3{
+    text-align: center;
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+
 
 @media (max-width: 768px) {
 
