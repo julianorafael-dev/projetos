@@ -96,12 +96,14 @@ header .navegacao {
     text-align: center;
 }
 
+main{
+    margin: 0 30px;
+}
 main #first {
     margin-top: 20px;
     display: flex;
     color: #ffffff;
     font-size: 15px;
-    margin-left: 30px;
 }
 
 main #first #titulo {
@@ -114,14 +116,19 @@ main #first #titulo {
 
 main #first #titulo h1 {
     text-transform: uppercase;
-
     font-size: 30px;
+    text-align: center;
+    width: 100%;
 }
 
 main #first #titulo h2 {
     text-transform: uppercase;
     font-size: 50px;
     color: #fdc50e;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+
 }
 
 main #first #titulo ul img {
@@ -132,8 +139,6 @@ main #first #titulo ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 15px;
-
     list-style: none;
     padding: 0;
 }
@@ -143,6 +148,8 @@ main #first #titulo ul li {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    width: calc(50% - 15px); 
+    margin: 7.5px; 
 }
 
 main #first #titulo ul img {
@@ -154,6 +161,11 @@ main #first #titulo ul img {
 main #first #titulo ul li p {
     width: 120px;
     text-align: center;
+}
+
+main #first .botao-agenda{
+
+    margin: 20px auto 0px auto;
 }
 
 main #first #carro {
@@ -214,11 +226,6 @@ main #second #servicos img{
 }
 
 /* sobre nos */
-main #second #sobre__nos{
-    padding-top: 30px;
-    
-}
-
 main #second #sobre__nos h2 {
     margin-top: 50px;
     text-align: center;
@@ -232,7 +239,7 @@ main #second #sobre__nos p{
 main #second #sobre__nos h3{
     text-align: center;
     color: #fff;
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 /* Footer */
@@ -345,6 +352,11 @@ footer span{
 
     main #first #titulo h2 {
         font-size: 38px;
+    }
+    main #first .botao-agenda{
+        display: flex;
+        margin-bottom: 20px;
+        
     }
 
     footer{
