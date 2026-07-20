@@ -1,6 +1,5 @@
 import { buscarCep } from "./services/viacep.js";
 
-// let form = document.querySelector('#form-cadastro') 
 let campoCep = document.querySelector('#cep') 
 
 campoCep.addEventListener('blur', async () => {

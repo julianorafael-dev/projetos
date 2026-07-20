@@ -14,7 +14,7 @@ form.addEventListener("submit", (event) => {
     const uf = document.querySelector("#uf").value;
     const observacoes = document.querySelector("#observacoes").value;
 
-    // Pega os serviços selecionados
+// Pega os serviços selecionados
     const servicos = [];
 
     document.querySelectorAll('input[name="servicos"]:checked')
@@ -23,12 +23,12 @@ form.addEventListener("submit", (event) => {
         });
 
     const mensagem = `
-🚗 *Solicitação de Orçamento*
+-- *Solicitação de Orçamento* --
 
-👤 Nome: ${nome}
-📞 Telefone: ${telefone}
+Nome: ${nome}
+Telefone: ${telefone}
 
-📍 Endereço
+Endereço
 CEP: ${cep}
 Rua: ${logradouro}
 Número: ${numero}
@@ -36,10 +36,10 @@ Complemento: ${complemento}
 Bairro: ${bairro}
 Cidade: ${cidade} - ${uf}
 
-🛠 Serviços:
+-> Serviços:
 ${servicos.join(", ")}
 
-📝 Observações:
+-> Observações:
 ${observacoes}
 `;
 

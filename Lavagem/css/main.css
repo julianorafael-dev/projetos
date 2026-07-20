@@ -92,13 +92,13 @@ header .navegacao {
     font-size: 35px;
     color: #fff;
     cursor: pointer;
-
     text-align: center;
 }
 
 main{
     margin: 0 30px;
 }
+
 main #first {
     margin-top: 20px;
     display: flex;
@@ -183,7 +183,6 @@ main #first #carro {
     background-repeat: no-repeat;
 }
 
-
 /* main - id second 1ª parte */
 main #second #servicos ul{
     
@@ -222,7 +221,6 @@ main #second #servicos img{
 }
 #servicos li:hover{
     transform: scale(1.1);
-
 }
 
 /* sobre nos */
@@ -249,11 +247,11 @@ footer{
     background-color: #00081A;
     color: #fff;
 }
+
 footer a{
     text-decoration: none;
     display: flex;
     align-items: center;
-   
 }
 
 footer #superior{
@@ -267,9 +265,11 @@ footer #superior div{
     display: flex;
     align-items: center; 
 }
+
 footer #juntas{
     gap: 100px;
 }
+
 footer #juntas div:hover{
     transform: scale(1.05);
 }
@@ -279,13 +279,16 @@ footer div p{
     color: #fff;
     
 }
+
 footer div h3{
     color: #fdc50e;
 }
+
 footer img{
     height: 20px;
     margin-right: 5px;
 }
+
 footer span{
     text-align: center;
     margin: 20px;
@@ -328,7 +331,7 @@ footer span{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 15px;
+        margin-top: 5px;
         gap: 15px;
         align-items: center;
     }
@@ -337,7 +340,6 @@ footer span{
         text-align: center;
         background-color: #adb8ce54;
         border-radius: 3px;
-        
     }
     .navegacao a:hover {
         color: #fdc50e;
@@ -350,8 +352,7 @@ footer span{
         flex-direction: column;
     }
 
-    main #first #titulo,
-    main #first #carro {
+    main #first #titulo, main #first #carro {
         width: 100%;
     }
 
@@ -367,6 +368,7 @@ footer span{
     main #first #titulo h2 {
         font-size: 38px;
     }
+
     main #first .botao-agenda{
         display: flex;
         margin-bottom: 20px;
@@ -376,6 +378,7 @@ footer span{
     footer{
         padding-top: 20px;
     }
+
     footer #superior{
         display: flex;
         flex-direction: column;
