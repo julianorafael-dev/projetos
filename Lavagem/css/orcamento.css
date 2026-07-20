@@ -69,6 +69,9 @@ header #voltar:hover{
 #conteudo h2, p{
     text-align: center;
 }
+#conteudo p{
+    color: #fff;
+}
 
 #contato{
     display: flex;
