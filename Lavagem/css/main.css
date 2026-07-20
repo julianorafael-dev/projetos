@@ -300,7 +300,7 @@ footer span{
         height: auto;
         padding: 15px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
@@ -330,6 +330,20 @@ footer span{
         width: 100%;
         margin-top: 15px;
         gap: 15px;
+        align-items: center;
+    }
+    .navegacao a{
+        width: 100%;
+        text-align: center;
+        background-color: #adb8ce54;
+        border-radius: 3px;
+        
+    }
+    .navegacao a:hover {
+        color: #fdc50e;
+        background-color: #fff;
+        width: 100%;
+
     }
 
     main #first {

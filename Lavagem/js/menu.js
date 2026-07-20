@@ -1,7 +1,5 @@
-function clickMenu(){
-            if(itens.style.display == 'block'){
-                itens.style.display = 'none'
-            }else{
-                itens.style.display = 'block'
-            }
-        }
+const itens = document.querySelector(".navegacao");
+
+function clickMenu() {
+    itens.classList.toggle("ativo");
+}
